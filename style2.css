@@ -1,0 +1,66 @@
+body {
+    background-image: url('images/fundomadeira.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+  }
+  
+    .titulo {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.8em;
+        margin-left: 15%;
+ 
+    }
+
+    .texto-sobre{
+        font-size: 19px;
+    }
+
+    .foto{
+        padding: 0;
+        margin: 0;
+    }
+
+    .foto img {
+        width: 22.5%;
+        height: 15%;
+        float: right;
+        margin-left: 15px;
+        padding: 3px;
+        border: 50px solid #fff;
+        box-shadow: 5px 5px 5px #0006;
+        margin-right: 30px;
+    }
+
+    .sobre{
+        background-color: #fff;
+        margin-left: 20px;
+        padding: 20px 20px 20px 20px;
+        margin-right: 500px;
+        margin-top: 40px;
+    }
+
+
+    .logo-textosobre {
+        margin-right: 10px;
+        padding: 0 110px;
+    }
+
+    footer {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        font-style: italic;
+        margin-top: 50px;
+    }
+
+    @media screen and (max-width: 768px) {
+        .gallery-fotos{
+            width: 100%;
+            padding: 0;
+        }
+    }

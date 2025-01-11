@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body{
+    background-image: url(images/fundo600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#container{
+    max-width: 1400px;
+    padding: 4%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+nav .logo{
+    font-size: 35px;
+    font-style: italic;
+    color: blue;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-top: 15px;
+}
+
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 19px;
+    color:yellow;
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+nav ul li a:hover{
+    background-color:  rgb(0, 123, 255 ); 
+}
+
+/* Estilo Sobre */
+
+.texto-sobre{
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+}
